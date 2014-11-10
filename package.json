@@ -1,0 +1,32 @@
+{
+  "name": "findmydevice-l10n-screenshots",
+  "description": "Testing casper API.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/findmydevice-l10n-screens/issues"
+  },
+  "dependencies": {
+    "async": "0.9.0",
+    "casper": "0.1.1",
+    "shelljs": "0.3.0"
+  },
+  "homepage": "https://github.com/pdehaan/findmydevice-l10n-screens",
+  "keywords": [
+    "findmydevice",
+    "l10n",
+    "screenshots"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdehaan/findmydevice-l10n-screens.git"
+  },
+  "scripts": {
+    "postinstall": "bower update",
+    "start": "bower update && time node index",
+    "test": "eslint *.js"
+  }
+}

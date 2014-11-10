@@ -1,0 +1,21 @@
+{
+  "name": "casper-test",
+  "main": "index.js",
+  "version": "1.0.0",
+  "authors": [
+    "Peter deHaan <peter@deseloper.com>"
+  ],
+  "description": "Grab all the locales via bower",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "FindMyDevice-l10n": "mozilla-services/FindMyDevice-l10n"
+  }
+}
